@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/RV"
+        android:id="@+id/RVv"
         android:layout_width="406dp"
         android:layout_height="657dp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
@@ -41,5 +41,6 @@
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/notes_row"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
